@@ -261,7 +261,7 @@ fits_list = []
 
 for file in os.listdir(fits_path):
     if file.endswith(".fits"):
-        fits_list.append() 
+        fits_list.append(file) 
         
 #Check if an ascii table called info.txt exists. If not, create one and add an empty table 
 #to it. It should have the columns file_name, eta, speed, angle, exopsure_time, tail_length and tail_angle.
